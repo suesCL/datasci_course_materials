@@ -65,7 +65,7 @@ Plan to spend some time visualizing the incident data to gain an intuition about
 
 5. Did you treat all incident types the same in determining whether to include them in the temporal history of a building? If not, why not?
 
-## Milestone 3: Construct a training dataset
+## Week 3: Construct a training dataset
 
 To train a supervised model, you need ground truth labels.  That is, you need a set of buildings that are pre-labeled as either blighted or not blighted.  And you need about as many positive examples as you do negative examples, or your model will not perform well.  There will be many, many more non-blighted buildings than blighted, so you will need to randomly select non-blighted buildings to include, and your model might be sensitive to this sampling.
 
